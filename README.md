@@ -12,15 +12,14 @@ base_model: Qwen/Qwen-Image-2.1
 | File | Description |
 |---|---|
 | `Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-int8_convrot.safetensors` | Model weights file |
-| ComfyUI custom nodes, text-to-image / edit workflows, example inputs | Additional pipeline components |
+| `viggle_turbo.py` and `__init__.py` custom nodes, t2i / edit workflows, example inputs | Additional pipeline components |
 
 ## Install
 
 ```bash
-git clone https://github.com
+git clone https://github.com/RiverSide71/Qwen-Image-2.1-viggle-turbo.git
 ```
-
-## Usage Guidelines
+Restart ComfyUI
 
 ### Rules that matter
 
@@ -36,6 +35,6 @@ git clone https://github.com
 Tested with ComfyUI 0.37.0 (frontend 1.53.6), which has native Qwen-Image-2.1 support. 
 
 ### Included Resources
-
+* `viggle_turbo.py, `init__.py`
 * `Qwen-Image-2.1-viggle-turbo-t2i.json`, `Qwen-Image-2.1-viggle-turbo-edit.json` — the workflows (drag into ComfyUI).
 * `input/woman2.webp`, `input/cat.webp` — the edit workflow's example references (from `black-forest-labs/flux`).
