@@ -35,6 +35,6 @@ Restart ComfyUI
 Tested with ComfyUI 0.37.0 (frontend 1.53.6), which has native Qwen-Image-2.1 support. 
 
 ### Included Resources
-* `viggle_turbo.py, `init__.py`
-* `Qwen-Image-2.1-viggle-turbo-t2i.json`, `Qwen-Image-2.1-viggle-turbo-edit.json` — the workflows (drag into ComfyUI).
-* `input/woman2.webp`, `input/cat.webp` — the edit workflow's example references (from `black-forest-labs/flux`).
+* `viggle_turbo.py`, `init__.py`
+* `Qwen-Image-2.1-viggle-turbo-t2i.json`, `Qwen-Image-2.1-viggle-turbo-edit.json` - the workflows (drag into ComfyUI).
+* `input/woman2.webp`, `input/cat.webp` - the edit workflow's example references (from `black-forest-labs/flux`).
